@@ -1,0 +1,29 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/DriveBase": "Subsystem",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/Shuffleboard/Auto/Routines": "String Chooser"
+    },
+    "windows": {
+      "/Shuffleboard/Auto/Routines": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "Shuffleboard": {
+      "Auto": {
+        "Routines": {
+          "open": true
+        },
+        "open": true
+      },
+      "open": true
+    }
+  }
+}
